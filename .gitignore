@@ -1,0 +1,42 @@
+# Виртуальное окружение
+venv/
+.env
+.venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Системные файлы macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Файлы IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи
+logs/
+*.log
+
+# Временные файлы
+temp/
+*.tmp
+*.bak
+*.pdf
+*.png
+*.xlsx
+
+# Тесты и кэш
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Файлы проекта (что не нужно в репозитории)
+*.pyc
+*.bak
+.DS_Store
